@@ -1,14 +1,14 @@
 val startInesiveOfSound: Int = 11
 var attenuationCoefficient: Double? = null
 val baseCoefficient = 0.5
-var InesiveOfSoundAfterAttenuation = startInesiveOfSound * (attenuationCoefficient ?: 0.5)
+var InesiveOfSoundAfterAttenuation = startInesiveOfSound * (attenuationCoefficient ?: baseCoefficient)
 
 val costsOfDelivery = 11
 val defaultCost = 50
 var cargoInsurance: Int? = null
 val cargoInsuranceIfcostsUnknown = 50 \ 100 * 0.5 = 0.25
-var totalCostsDelivery = costsOfDelivery +(cargoInsurance ?: 0.25)
+var totalCostsDelivery = costsOfDelivery +(cargoInsurance ?: cargoInsuranceIfcostsUnknown)
 
 var atmosphericPressure: Double? = Null
 val attentionMessage = "Сообщение об ошибке"
-var isThereAtmosphericPressure = atmosphericPressure ?: attentionMessage)
+var isThereAtmosphericPressure = atmosphericPressure ?: attentionMessage
